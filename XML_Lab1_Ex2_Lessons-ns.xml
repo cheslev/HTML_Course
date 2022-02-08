@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<xs:schema xmlns:xs="XML.lessons-ns_XML.xml">
+
+<TimeTable xmlns:python ="http://www.itmo.ru/xml/lessons"
+           xmlns:CSharp ="http://www.itmo.ru/xml/lessons"
+           xmlns:XML ="http://www.itmo.ru/xml/lessons">
+    <python:course>
+        <python:name>Курс №1</python:name>
+        <python:teacher>Преподаватель №1 <python:teacher>
+        <python:time>9:00<python:time>
+        <python:begin>01.02.2022<python:begin>
+        <python:end>01.03.2022<python:end>
+        <python:literature>"Learn Python"<python:literature>
+    </python:course>
+
+    <CSharp:course>
+        <Csharp:name>Курс №2</CSharp:name>
+        <Csharp:teacher>Преподаватель №2 </CSharp:teacher>
+        <Csharp:time>18:00</CSharp:time>
+        <Csharp:begin>15.03.2022</CSharp:begin>
+        <Csharp:end>17.04.2022</CSharp:end>
+        <Csharp:literature>"C# for begginers"</CSharp:literature>
+    </CSharp:course>
+
+    <XML:course>
+        <XML:name>Курс №3</XML:name>
+        <XML:teacher>Преподаватель №3 </XML:teacher>
+        <XML:time>11:00</XML:time>
+        <XML:begin>03.02.2022</XML:begin>
+        <XML:end>29.02.2022</XML:end>
+        <XML:literature>"XML from newbie to pro"</XML:literature>
+    </XML:coursXML>
+
+</TimeTable>
